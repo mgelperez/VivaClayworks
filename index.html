@@ -27,7 +27,6 @@
 </head>
 
 <body>
-
 <!-- HEADER-->
 	<header class="overflow-hidden sm-padding-1">
 		<div class="container-full"><!-- CONTAINER -->
@@ -50,10 +49,14 @@
 					</nav>
 				</div>
 
-				<!-- CTA -->
+				<!-- ORANGE BUTTON -->
 			
 				<a href="#" class="orange-button cta-wrap">Call Now</a>
 			
+
+
+				<!---------- MOBILE NAVIGATION START ---------->
+
 
 				<!-- HAMBURGER MENU -->
 				<div class="hamburger">
@@ -61,6 +64,34 @@
 					<div class="line"></div>
 					<div class="line"></div>
 				</div>
+
+				<!-- OFF SCREEN MENU -->
+				<div class="off-screen-menu">
+
+					<!-- 'X' BUTTON -->
+					<div class="cross">
+						<div class="cross-line-1"></div>
+						<div class="cross-line-2"></div>
+					</div>
+
+
+					<!-- MENU -->
+					<ul class="mobile-nav">
+						<li><a href="index.html" class="whitetext p-mob-nav"><b>Home</b></a></li>
+						<li><a href="classes.html" class="whitetext p-mob-nav">Classes</a></li>
+						<li><a href="firing.html" class="whitetext p-mob-nav">Firing</a></li>
+						<li><a href="about.html" class="whitetext p-mob-nav">About</a></li>
+					</ul>
+
+					<br>
+					<br>
+					<br>
+
+					<!-- WHITE BUTTON -->
+					<a href="#" class="white-button cta-wrap-mobile">Call Now</a>
+				</div>
+
+				<!---------- MOBILE NAVIGATION END ---------->
 
 			</div><!-- ROW END -->
 		</div><!-- CONTAINER END -->
@@ -90,6 +121,7 @@
 	<section class="section-border overflow-hidden position-relative sm-padding-2">
 		<div class="container-full"><!-- CONTAINER START -->
 
+				<!-- TITLE -->
 				<div class="row row-justify-center">
 					<h1 class="center-text">Choose Your Class</h1>
 				</div>
@@ -141,7 +173,7 @@
 					</div><!-- COLUMN END -->
 
 					<!-- CTA -->
-					<div class="col margin-left"><!-- COLUMN START -->
+					<div class="col margin-left margin-left-md col-md-8"><!-- COLUMN START -->
 
 						<!-- TEXT -->
 						<p>Explore upcoming sessions, see what’s included, and find the class that fits your schedule and goals.</p>
@@ -177,7 +209,7 @@
 			</div><!-- ROW END -->
 
 			<!-- BODY -->
-			<div class="col-lg-6 col-sm-12">
+			<div class="col-lg-6 col-sm-12 col-md-8">
 
 				<!-- TEXT -->
 				<p>
@@ -198,31 +230,39 @@
 <!-- NEWSLETTER-->
 
 <section class="bg-beige overflow-hidden position-relative sm-padding-2">
-	<div class="container-full"><!--- CONTAINER -->
-		<div class="row row-justify-center row-align-center"><!-- ROW -->
+	<div class="container-full"><!--- CONTAINER START-->
+		<div class="row row-justify-center row-align-center"><!-- ROW START-->
 
-
+			<!-- IMAGE -->
 			<div class="col">
-				<img src="images/newsletter.png" class="center-image" width="380px">
+				<img src="images/newsletter.png" class="center-image" width="380px" alt="image of a pot">
 			</div>
 				
 
-			<div class="col col-sm-12"><!-- TEXT COLUMN -->
-					<h1>Sign up & get early access to classes.</h1>
-					<p>Join our mailing list to be the first to know when new classes open. Subscribers also receive updates on special workshops, seasonal events, and studio news.</p>
-					<br>
-					<br>
+			<!-- TEXT -->
+			<div class="col col-sm-12"><!-- COLUMN START -->
 
+				<h1>Sign up & get early access to classes.</h1>
+				<p>Join our mailing list to be the first to know when new classes open. Subscribers also receive updates on special workshops, seasonal events, and studio news.</p>
+				<br>
+				<br>
+
+				<!-- SUBSCRIBE -->
 				<div class="row col-sm-12">
+
+					<!-- INPUT FIELD -->
 					<input type="text" placeholder="Enter your email here">
+
+					<!-- SUBSCRIBE BUTTON -->
 					<a href="#" class="orange-button">Subscribe</a>
 				</div>
-			</div>
 
-			</div>
-		</div>
-	</div>
+			</div><!-- COLUMN END -->
 
+		</div><!-- ROW END -->
+	</div><!-- CONTAINER END -->
+
+	<!-- ORANGE SPIRAL VECTOR -->
 	<img src="images/newsletter-vector.png" class="newsletter-vector-pos" width="180px"> 
 
 </section>
@@ -340,5 +380,10 @@
 			</div><!-- ROW ENDS -->
 		</div><!-- CONTAINER ENDS -->
 	</footer>
+
+
+	<!-- JAVASCRIPT FOR HAMBURGER MENU -->
+	<script src="script.js"></script>
+
 
 </body>
