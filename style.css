@@ -38,6 +38,9 @@ li {
 	gap: 100px;
 }
 
+.margin-bottom{
+	margin-bottom: 50px;
+}
 
 .row-gap{
 	margin-top: 40px;
@@ -318,9 +321,8 @@ a{
 }
 
 .classes-vector-pos{
-	position: absolute;
-	top: 100px;
-	right: 0;
+	position-absolute
+	right: 0px;
 }
 
 .hero-pot-1-pos{
@@ -464,6 +466,10 @@ a{
 	border-radius: 30px;
 }
 
+.card-wrap{
+	height: 400px;
+}
+
 @media screen and (max-width: 478px){
 
 	.menu{
@@ -560,6 +566,28 @@ a{
 		display: flex;
 		flex-direction: column;
 		align-items: start;
+	}
+
+	.about-hero-img{
+		height: 400px;
+	}
+
+	.grid-firing{
+		display: grid;
+		grid-template-columns: auto;
+		column-gap: 40px;
+		row-gap: 86px;
+		align-items: start;
+	}
+
+	.firing-vector-pos-1{
+			top: 20px;
+			left: -20px;
+			width: 100px;
+	}
+
+	.firing-vector-pos-2{
+		display: none;
 	}
 
 }
