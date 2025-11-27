@@ -38,6 +38,8 @@ li {
 	gap: 100px;
 }
 
+/* change test */
+
 .margin-bottom{
 	margin-bottom: 50px;
 }
@@ -572,6 +574,8 @@ a{
 		height: 400px;
 	}
 
+
+/* change test */
 	.grid-firing{
 		display: grid;
 		grid-template-columns: auto;
@@ -591,3 +595,5 @@ a{
 	}
 
 }
+
+/* change test */
