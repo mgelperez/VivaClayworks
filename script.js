@@ -1,3 +1,5 @@
+// SCRIPT TO TOGGLE HAMBURGER MENU
+
 const hamMenu = document.querySelector('.hamburger');
 const cross = document.querySelector('.cross');
 const offScreenMenu = document.querySelector('.off-screen-menu');
